@@ -1,0 +1,45 @@
+
+.main {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: #2E3440;
+    
+}
+
+
+.title-container {      
+    display: flex;
+    flex-direction: column;
+    transform: translateY(10vh);
+    align-items: center;
+    height: 40vh;
+    color: mintcream;
+    font-size: clamp(16px, 3vw, 50px);
+    font-family: 'Courier New';
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.paragraph-text {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   transform: translate(-20vh, -10vh);
+   word-wrap: break-word;
+   width: 50vh;
+   color: mintcream;
+   font-size: clamp(16px, 2vw, 20px);
+   font-family: 'Courier New';
+   font-weight: bold;
+   line-height:1.5;
+}
+
+
+.information-links {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
