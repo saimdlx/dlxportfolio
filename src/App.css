@@ -4,10 +4,8 @@
     flex-direction: column;
     align-items: center;
     display: flex;
-    background-color: #2E3440;
     
 }
-
 
 .title-container {      
     display: flex;
@@ -15,7 +13,7 @@
     transform: translateY(10vh);
     align-items: center;
     height: 40vh;
-    color: mintcream;
+    color: rgb(73, 66, 66);
     font-size: clamp(16px, 3vw, 50px);
     font-family: 'Courier New';
     font-weight: bold;
@@ -26,20 +24,22 @@
    align-items: center;
    display: flex;
    flex-direction: column;
-   transform: translate(-20vh, -10vh);
+   transform: translateY(-5vh);
    word-wrap: break-word;
-   width: 50vh;
-   color: mintcream;
+   width: 100vh;
+   color: rgb(73, 66, 66);
    font-size: clamp(16px, 2vw, 20px);
    font-family: 'Courier New';
    font-weight: bold;
    line-height:1.5;
 }
 
-
 .information-links {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
+    padding: 10vh;
+    gap: 50px;
 }
