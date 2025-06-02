@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # dlx.portfolio
 Repo to store code for my portfolio website (whenever I get that shit done).
 =======
@@ -73,3 +74,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> ade38b1 (x)
+=======
+# dlx portfolio, a work in progress.
+>>>>>>> 160f031624a6d38ec8ce45e82b14421b93578a2c
