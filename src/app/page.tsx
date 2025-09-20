@@ -8,11 +8,11 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
 
       <div className="tracking-wide text-5xl font-bold">
-        hello,<br></br>i'm saim ahmed.
+        hello,<br></br>im saim ahmed.
       </div>
 
       <div className="text-xl font-bold text-wrap ">
-        i'm a computer science student and software developer.<br></br>
+        im a computer science student and software developer.<br></br>
         i currently work for <Animato href = "https://truehue.app/">trueHue Vision LLC</Animato> as a web intern.
       </div>
 
