@@ -1,4 +1,4 @@
-import Animato from './linksanimation'
+import Animato from "./linksanimation";
 
 
 export default function Home() {
