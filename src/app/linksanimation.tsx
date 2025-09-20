@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 
-export default function HoverText({href, children = ""}) {
+export default function HoverText({href="", children = ""}) {
 
   const [isHovered, setIsHovered] = useState(false);
 
