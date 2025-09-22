@@ -1,4 +1,4 @@
-import Animato from './linksanimation'
+import Animato from "./linksanimation";
 
 
 export default function Home() {
@@ -8,12 +8,12 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
 
       <div className="tracking-wide text-5xl font-bold">
-        hello,<br></br>i'm saim ahmed.
+        hello,<br></br>im saim ahmed.
       </div>
 
       <div className="text-xl font-bold text-wrap ">
-        i'm a computer science student and software developer.<br></br>
-        i currently work for <Animato href = "https://truehue.app/">trueHue Vision LLC</Animato> as a web intern.
+        im a computer science student and <Animato setColor="skyblue" href="https://github.com/saimdlx">software developer.</Animato><br></br>
+        i currently work for <Animato setColor="orchid" href = "https://truehue.app/">trueHue Vision LLC</Animato> as a <Animato setColor="palegreen" href="https://www.linkedin.com/in/ahmedsaim2027/">web intern.</Animato>
       </div>
 
       </main>

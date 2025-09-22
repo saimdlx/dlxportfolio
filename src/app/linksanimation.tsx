@@ -1,19 +1,19 @@
 'use client';
+import { col } from 'motion/react-client';
 import React, { useState } from 'react';
 
 
-export default function HoverText({href, children = ""}) {
+export default function HoverText({href="", children = "", setColor = ""}) {
 
   const [isHovered, setIsHovered] = useState(false);
 
-
   const baseStyle = {
-    transition: 'color 0.3s, font-size 0.3s', 
+    transition: 'color 0.1s, font-size 0.3s'
   };
 
 
   const hoverStyle = {
-    color: 'brown',
+    color: setColor,
     fontSize: '1.5rem'
   };
   
