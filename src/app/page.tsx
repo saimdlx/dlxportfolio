@@ -1,6 +1,4 @@
 import Animato from "./linksanimation";
-import Animato from "./linksanimation";
-
 
 export default function Home() {
 
@@ -9,7 +7,6 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
 
       <div className="tracking-wide text-5xl font-bold">
-        hello,<br></br>im saim ahmed.
         hello,<br></br>im saim ahmed.
       </div>
 
