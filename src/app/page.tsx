@@ -1,4 +1,4 @@
-import Animato from "./linksanimation";
+import AnimateLinks from "./linksanimation";
 
 export default function Home() {
 
@@ -11,8 +11,8 @@ export default function Home() {
       </div>
 
       <div className="text-xl font-bold text-wrap ">
-        im a computer science student and <Animato setColor="skyblue" href="https://github.com/saimdlx">software developer.</Animato><br></br>
-        i currently work for <Animato setColor="orchid" href = "https://truehue.app/">trueHue Vision LLC</Animato> as a <Animato setColor="palegreen" href="https://www.linkedin.com/in/ahmedsaim2027/">web intern.</Animato>
+        im a <AnimateLinks setColor="yellow" href = "https://www.rcc.edu/programs/computer-science.html">computer science student</AnimateLinks> and <AnimateLinks setColor="skyblue" href="https://github.com/saimdlx">software developer.</AnimateLinks><br></br>
+        i currently work for <AnimateLinks setColor="orchid" href = "https://truehue.app/">trueHue Vision LLC</AnimateLinks> as a <AnimateLinks setColor="palegreen" href="https://www.linkedin.com/in/ahmedsaim2027/">web intern.</AnimateLinks>
       </div>
 
       </main>
