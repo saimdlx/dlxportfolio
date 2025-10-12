@@ -3,22 +3,18 @@ import { col } from 'motion/react-client';
 import React, { useState } from 'react';
 
 
-export default function HoverText({href="", children = "", setColor = ""}) {
-
+export default function HoverText({className="", href="", children = "", setColor = ""}) {
   const [isHovered, setIsHovered] = useState(false);
-
   const baseStyle = {
     transition: 'color 0.1s, font-size 0.3s'
   };
-
-
   const hoverStyle = {
     color: setColor,
     fontSize: '1.5rem'
   };
   
   return (
-    <a
+    <a className={className}
       href={href}
       target='_blank'
       rel='noopener noreferrer'
