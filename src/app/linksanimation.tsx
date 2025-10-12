@@ -9,8 +9,7 @@ export default function HoverText({className="", href="", children = "", setColo
     transition: 'color 0.1s, font-size 0.3s'
   };
   const hoverStyle = {
-    color: setColor,
-    fontSize: '1.5rem'
+    color: setColor
   };
   
   return (
