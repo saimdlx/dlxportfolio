@@ -8,7 +8,7 @@ export default function Home() {
 
       <div className="font-mono grid grid-rows-[20px_1fr_20px] justify-items-center items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
         <DotGrid
-        style={{ position: 'absolute', width: '100%', height: '100%', zIndex: -1, padding: 0, margin: 0}}
+        style={{ position: 'absolute', width: '100%', height: '100%', zIndex: -1, padding: 0, margin: 0, top:0, left:0}}
         dotSize={10}
         gap={15}
         baseColor="#000000ff"
