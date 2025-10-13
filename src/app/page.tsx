@@ -8,7 +8,7 @@ export default function Home() {
 
       <div className="font-mono grid grid-rows-[20px_1fr_20px] justify-items-center items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
         <DotGrid
-        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}
+        style={{ position: 'absolute', width: '100%', height: '100%', zIndex: -1, padding: 0, margin: 0}}
         dotSize={10}
         gap={15}
         baseColor="#000000ff"
@@ -18,9 +18,10 @@ export default function Home() {
         shockStrength={5}
         resistance={750}
         returnDuration={1.5}
+        
       />
         <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-          
+
           <div className="tracking-wide text-4xl font-bold">
             hey, im saim!
           </div>
