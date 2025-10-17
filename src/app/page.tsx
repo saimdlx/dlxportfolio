@@ -8,23 +8,23 @@ export default function Home() {
   return (
     <div className="font-mono grid grid-rows-[20px_1fr_20px] justify-items-center items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <PixelBlast
-        style={{ width: '100%', height: '100%', position: 'absolute', padding: 0, margin: 0, top: 0, left: 0, zIndex:-1}}
+        style={{ width: '100%', height: '100%', position: 'absolute', padding: 0, margin: 0, top: 0, left: 0, zIndex: -1 }}
         variant="square"
-        pixelSize={6}
+        pixelSize={2}
         color="skyblue"
         patternScale={2}
-        patternDensity={1}
+        patternDensity={0.5}
         pixelSizeJitter={0.5}
         enableRipples
         rippleSpeed={0.4}
         rippleThickness={0.12}
         rippleIntensityScale={1.5}
         speed={0.5}
-        edgeFade={0.25}
+        edgeFade={0.10}
       />
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
 
-        <div className="tracking-wide text-4xl font-bold">
+        <div className="tracking-widest text-4xl font-bold">
           hey, im saim!
         </div>
 
@@ -34,6 +34,7 @@ export default function Home() {
         </div>
 
       </main>
+
     </div>
   );
 }
