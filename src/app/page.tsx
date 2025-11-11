@@ -30,7 +30,7 @@ export default function Home() {
 
         <div className="text-xl font-bold text-wrap">
           im a <AnimateLinks className="text-decoration-line: underline" setColor="yellow" href="https://www.rcc.edu/programs/computer-science.html">computer science student</AnimateLinks> and <AnimateLinks className="text-decoration-line: underline" setColor="skyblue" href="https://github.com/saimdlx">software developer.</AnimateLinks><br></br>
-          i currently work for <AnimateLinks className="text-decoration-line: underline" setColor="orchid" href="https://www.tryseatlock.com/">SeatLock</AnimateLinks> as a <AnimateLinks className="text-decoration-line: underline" setColor="palegreen" href="https://www.linkedin.com/in/ahmedsaim2027/">software engineer.</AnimateLinks>
+          i currently work for <AnimateLinks className="text-decoration-line: underline" setColor="orchid" href="https://www.tryseatlock.com/">SeatLock</AnimateLinks> as a <AnimateLinks className="text-decoration-line: underline" setColor="palegreen" href="https://www.linkedin.com/in/ahmedsaim2027/">fullstack engineer.</AnimateLinks>
         </div>
 
       </main>
