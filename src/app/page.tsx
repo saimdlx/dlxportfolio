@@ -1,8 +1,19 @@
 'use client'
-import AnimateLinks from "./linksanimation";
-import PixelBlast from './bitbackground';
+import AnimateLinks from "../components/linksanimation";
+import PixelBlast from '../components/bitbackground';
+import PixelTrail from '../components/PixelTrail';
 
-
+/*
+      <PixelTrail
+        style={{ width: '100%', height: '100%', position: 'absolute', padding: 0, margin: 0, top: 0, left: 0}}
+        gridSize={50}
+        trailSize={0.1}
+        maxAge={250}
+        interpolate={1}
+        color="skyblue"
+        gooeyFilter={{ id: "custom-goo-filter", strength: 2 }}
+      />
+*/
 export default function Home() {
 
   return (
@@ -23,7 +34,6 @@ export default function Home() {
         edgeFade={0.10}
       />
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-
         <div className="tracking-widest text-4xl font-bold">
           hey, im saim!
         </div>
