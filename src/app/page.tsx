@@ -39,8 +39,8 @@ export default function Home() {
         </div>
 
         <div className="text-xl font-bold text-wrap">
-          im a <AnimateLinks className="text-decoration-line: underline" setColor="yellow" href="https://www.rcc.edu/programs/computer-science.html">computer science student</AnimateLinks> and <AnimateLinks className="text-decoration-line: underline" setColor="skyblue" href="https://github.com/saimdlx">software developer.</AnimateLinks><br></br>
-          i currently work for <AnimateLinks className="text-decoration-line: underline" setColor="orchid" href="https://www.tryseatlock.com/">SeatLock</AnimateLinks> as a <AnimateLinks className="text-decoration-line: underline" setColor="palegreen" href="https://www.linkedin.com/in/ahmedsaim2027/">fullstack engineer.</AnimateLinks>
+          im a <AnimateLinks className="text-decoration-line: underline" setColor="#fecaca" href="https://www.rcc.edu/programs/computer-science.html">computer science student</AnimateLinks> and <AnimateLinks className="text-decoration-line: underline" setColor="skyblue" href="https://github.com/saimdlx">software engineer.</AnimateLinks><br></br>
+          i currently work for <AnimateLinks className="text-decoration-line: underline" setColor="orchid" href="https://toolhouse.ai/">ToolHouse</AnimateLinks> as a <AnimateLinks className="text-decoration-line: underline" setColor="palegreen" href="https://www.linkedin.com/in/ahmedsaim2027/">campus ambassador.</AnimateLinks>
         </div>
 
       </main>
