@@ -92,3 +92,29 @@ img {
     height: auto;
     display: block;
 }
+
+/* Rearrange CSS components for mobile */
+@media (max-width: 768px){
+
+    .home-container{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .sidebar {
+        align-items: center;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        text-align: center;
+    }
+    main{
+        width: 90vw;
+        min-width: 90vw;
+        height: auto;
+        min-height: 40vh;
+    }
+
+}
