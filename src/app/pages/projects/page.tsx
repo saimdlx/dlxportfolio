@@ -10,7 +10,7 @@ export default function About() {
 
                         <header>
                             <h1>
-                                <Link href="/">About</Link>
+                                <Link href="/">Projects</Link>
                             </h1>
                         </header>
                         
@@ -36,7 +36,7 @@ export default function About() {
                         </nav>
                     </div>
                     <main>
-                        i'm a junior computer science student studying at uc berkeley. i believe software (and technology entirely) should seek to be beautiful, efficient, and helpful to humanity.
+                        work in progress, this is a project after all :)
                     </main>
                 </div>
             </div>

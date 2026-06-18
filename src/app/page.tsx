@@ -25,7 +25,7 @@ export default function Home() {
                   <Link href="/pages/about">About</Link>
                 </li>
                 <li>
-                  <Link className="" href="">Projects</Link>
+                  <Link href="/pages/projects">Projects</Link>
                 </li>
                 <li>
                   <Link className="" href="">Contact</Link>
