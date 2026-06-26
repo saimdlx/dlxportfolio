@@ -25,13 +25,13 @@ export default function Home() {
                   <Link href="/pages/about">About</Link>
                 </li>
                 <li>
+                  <Link href="/pages/occupations">Work</Link>
+                </li>
+                <li>
                   <Link href="/pages/projects">Projects</Link>
                 </li>
                 <li>
-                  <Link className="" href="">Contact</Link>
-                </li>
-                <li>
-                  <Link className="" href="">Blog</Link>
+                  <Link href="/pages/contact">Contact</Link>
                 </li>
 
               </ul>

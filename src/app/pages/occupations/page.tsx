@@ -1,7 +1,7 @@
 import "../../properties.css";
 import Link from "next/link"
 
-export default function About() {
+export default function Occupations() {
     return (
         <div className="root">
             <div className="home-wrapper">
@@ -10,7 +10,7 @@ export default function About() {
 
                         <header>
                             <h1>
-                                <Link href="/">About</Link>
+                                <Link href="/">Work</Link>
                             </h1>
                         </header>
 
@@ -35,10 +35,20 @@ export default function About() {
                         </nav>
                     </div>
                     <main>
-                        i'm a junior computer science student studying at uc berkeley. <br></br> 
-                        i believe software (and technology entirely) should seek to be beautiful, efficient, and helpful to humanity. <br></br>
-                        right now, i'm current an ai engineering intern at cadabra ai (berkeley skydeck) <br></br>
-                     </main>
+                        <ul>
+                            <div>
+                                <li>
+                                    <Link target="_blank" rel="noopener noreferrer" href="https://truehue.app/">frontend intern - truehue vision inc.</Link>
+                                </li>
+                                <li>
+                                    <Link target="_blank" rel="noopener noreferrer" href="https://www.sponsorpair.com/">founding engineer - sponsorpair</Link>
+                                </li>
+                                <li>
+                                    <Link target="_blank" rel="noopener noreferrer" href="https://cadabrai.com/">ai/ml engineering intern - cadabra ai</Link>
+                                </li>
+                            </div>
+                        </ul>
+                    </main>
                 </div>
             </div>
         </div>
