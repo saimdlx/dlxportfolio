@@ -1,7 +1,6 @@
 'use client'
-
 import './properties.css';
-
+import Link from "next/link"
 
 export default function Home() {
 
@@ -13,26 +12,26 @@ export default function Home() {
 
             <header>
               <h1>
-                <a href="/">saim's</a>
+                <Link href="/">saim's</Link>
               </h1>
             </header>
 
             <nav>
               <ul>
                 <li>
-                  <a className="" href="/">Home</a>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <a className="" href="">About</a>
+                  <Link href="/pages/about">About</Link>
                 </li>
                 <li>
-                  <a className="" href="">Projects</a>
+                  <Link href="/pages/occupations">Work</Link>
                 </li>
                 <li>
-                  <a className="" href="">Contact</a>
+                  <Link href="/pages/projects">Projects</Link>
                 </li>
                 <li>
-                  <a className="" href="">Blog</a>
+                  <Link href="/pages/contact">Contact</Link>
                 </li>
 
               </ul>
