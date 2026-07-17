@@ -31,6 +31,7 @@ export default function Home() {
           <div className="flex flex-col w-full h-8">
             <span className="font-light tracking-tight text-sm">1629saim[at]gmail[dot]com</span>
             <span className="font-light tracking-tight text-sm">San Francisco, California</span>
+            
           </div>
         </div>
       </div>
