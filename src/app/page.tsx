@@ -19,7 +19,7 @@ export default function Home() {
             <div className="col-span-2 md:flex flex-col text-xl tracking-tighter font-light leading-8 hidden">Insatiably curious about technology.</div>
             <div className="flex flex-col col-span-3 tracking-wide leading-6 font-light gap-4 leading-[1.6rem] tracking-[-0.0067rem]">
               <p>
-                I'm an aspiring software engineer. I attend UC Berkeley, and currently work in AI/ML Engineering at&nbsp;
+                I'm an aspiring software engineer. I attend UC Berkeley, and spent my summer working in AI/ML Engineering at&nbsp;
                   <a className="underline italic font-normal" href="https://cadabrai.com/" rel="noopener noreferrer" target="_blank">Cadabra</a>. 
               </p>
               <p>
