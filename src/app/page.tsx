@@ -19,7 +19,7 @@ export default function Home() {
               </div>
             </div>
             <div className="md:col-span-2 flex flex-col"></div>
-            <div className="col-span-2 md:flex flex-col text-xl tracking-tighter font-light leading-8 hidden">Seeking problems that intersect the physical and the digital.</div>
+            <div className="col-span-2 md:flex flex-col text-xl tracking-tighter font-light leading-8 hidden">Gravitating toward problems that intersect the physical and the digital.</div>
             <div className="flex flex-col col-span-3 tracking-wide leading-6 font-light gap-4 leading-[1.6rem] tracking-[-0.0067rem]">
               <p>
                 I'm an aspiring engineer attending UC Berkeley. My summer was spent working in AI/ML Engineering at&nbsp;
