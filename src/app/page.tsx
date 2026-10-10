@@ -11,24 +11,23 @@ export default function Home() {
           <div className="md:grid grid-cols-1 md:grid-cols-10 gap-3 md:gap-6 h-full md:grid-rows-1 flex flex-col">
             <div className="md:col-span-3 flex flex-col justify-between">
               <div className="flex flex-col">
-                <span className="font-light tracking-tighter text-xl leading-8">Saim Ahmed</span>
-                <span className="font-light tracking-tighter text-sm leading-8"><a href="https://www.linkedin.com/in/ssaim/" target="_blank" rel="noopener noreferrer">LinkedIn</a> - <a href="https://github.com/saimdlx" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+                <span className="font-normal tracking-tighter text-xl leading-8">Saim Ahmed</span>
+                <span className="font-light tracking-tighter text-xl leading-8">
+                  <a href="https://www.linkedin.com/in/ssaim/" target="_blank" rel="noopener noreferrer">LinkedIn</a><br></br>
+                  <a href="https://github.com/saimdlx" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </span>
               </div>
             </div>
             <div className="md:col-span-2 flex flex-col"></div>
-            <div className="col-span-2 md:flex flex-col text-xl tracking-tighter font-light leading-8 hidden">Insatiably curious about technology.</div>
+            <div className="col-span-2 md:flex flex-col text-xl tracking-tighter font-light leading-8 hidden">Seeking problems that intersect the physical and the digital.</div>
             <div className="flex flex-col col-span-3 tracking-wide leading-6 font-light gap-4 leading-[1.6rem] tracking-[-0.0067rem]">
               <p>
-                I'm an aspiring software engineer. I attend UC Berkeley, and spent my summer working in AI/ML Engineering at&nbsp;
+                I'm an aspiring engineer attending UC Berkeley. My summer was spent working in AI/ML Engineering at&nbsp;
                 <a className="underline italic font-normal" href="https://cadabrai.com/" rel="noopener noreferrer" target="_blank">Cadabra</a>.
               </p>
               <p>
                 Now, I'm working within the firmware subteam of <a className="underline italic font-normal" href="https://ev.studentorg.berkeley.edu/" rel="noopener noreferrer" target="_blank">Formula Electric at Berkeley</a>.
               </p>
-              <p>
-                In my free time, I enjoy photography, drumming, and skateboarding.
-              </p>
-              <p>I'm interested in working on problems that intersect hardware and software; technology that seeks to be beneficial and efficient</p>
             </div>
           </div>
           <div className="flex flex-col w-full h-8">
